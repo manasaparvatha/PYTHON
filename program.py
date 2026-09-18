@@ -92,3 +92,26 @@ print(a+b)
 print(a-b)
 
 
+#caluclate simple interest
+principal=float(input("enter principal"))
+rate=float(input("enter rate"))
+time=float(input("enter time"))
+si=(principal*rate*time)/100
+print(si)
+
+#temperature conversion
+c=float(input("enter c"))
+f=(c*9/5)+32
+print(f)
+
+#check divisibility by 3 and 5
+n=int(input("enter n"))
+print(n%3==0 and n%5==0)
+
+
+#sum of digits of a two digit number
+num=int(input("enter num"))
+tens=num//10
+units=num%10
+total=tens+units
+print(total)
